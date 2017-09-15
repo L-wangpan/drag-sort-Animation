@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.ss.android.drag.demochannel.MyTextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:maxLines="1"
+        app:tag_text_size="16sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/bg_channel"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_centerInParent="true"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/img_edit"
+        android:layout_alignParentRight="true"
+        android:layout_width="16dp"
+        android:visibility="invisible"
+        android:layout_height="16dp"/>
+
+</RelativeLayout>

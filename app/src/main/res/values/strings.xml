@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dragdemo</string>
+    <string name="tip_drag">Hold to Edit</string>
+    <string name="my_channel">My Channels</string>
+    <string name="other_channel">Recommended</string>
+    <string name="edit">Edit</string>
+    <string name="finish">Done</string>
+</resources>
